@@ -2,7 +2,7 @@
 do
 
 -- make sure to set with value that not higher than stats.lua
-local NUM_MSG_MAX = 3  -- Max number of messages per TIME_CHECK seconds
+local NUM_MSG_MAX = 4  -- Max number of messages per TIME_CHECK seconds
 local TIME_CHECK = 4
 
 local function is_anti_flood(msg)
